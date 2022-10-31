@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65.5%;
+}
+
+body{
+    background-color: grey;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: darkgrey;
+    margin: 1rem;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #29A98B;
+    height: 100vh;
+    width: 20vw;
+    resize: horizontal;
+    overflow: scroll;
+}
+
+a {
+    text-decoration: none;
+    color: #2a2929;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+p {
+    margin-top: 1rem;
+}
